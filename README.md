@@ -15,7 +15,7 @@ source.addEventListener("dragstart", (ev) => {
 });
 ```
 
-drop 핸들러에서 "URL" 키를 사용하여 hyperlinks를 꺼낼 수 있습니다. 
+drop 핸들러에서 "URL" 키를 사용하여 hyperlinks를 꺼낼 수 있습니다. 또는 text/url-list를 사용합니다.
 
 ```jsx
 target.addEventListener("drop", (ev) => {
